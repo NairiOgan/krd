@@ -1520,13 +1520,14 @@ divider {
     width: 100%;
 }
 
+
 .banks__list {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     overflow-x: visible;
-    /* gap: var(--space-m); */
 }
+
 
 .banks__list__item {
     width: 20rem !important;
