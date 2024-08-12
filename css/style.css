@@ -523,6 +523,7 @@ divider {
     color: var(--neutral);
     padding: 1.2rem 3rem;
     border-radius: 10rem;
+    font-weight: 600;
     background: var(--secondary);
     transition: var(--transition-base);
 }
