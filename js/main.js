@@ -171,37 +171,36 @@ const banksSlider = new Swiper('.banks-slider', {
     spaceBetween: 30,
 
     // Скорость переключения слайдов
-    speed: 10000,
+    speed: 5000,
 
     autoplay: {
         delay: 0,
         disableOnInteraction: false,
-        pauseOnMouseEnter: true
+        pauseOnMouseEnter: false
     },
 
     // адаптив
-    // breakpoints: {
-    //   320: {
-    //     spaceBetween: 80,
-    //     slidesPerView: 1,
-    //   },
-    //   958: {
-    //     spaceBetween: 80,
-    //     slidesPerView: 1.5,
-    //   },
-    //   1180: {
-    //     spaceBetween: 140,
-    //     slidesPerView: 2.5,
-    //   },
-    //   1290: {
-    //     spaceBetween: 140,
-    //     slidesPerView: 2.3,
-    //   },
-    //   1646: {
-    //     spaceBetween: 150,
-    //     slidesPerView: 3,
-    //   },
-    // },
+    breakpoints: {
+      300: {
+        slidesPerView: 2,
+        speed: 5000,
+        autoplay: {
+            delay: 0,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: false
+        },
+      },
+      
+      600: {
+        slidesPerView: 6,
+        speed: 5000,
+        autoplay: {
+            delay: 0,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: false
+        },
+      },
+    },
 });
 
 
@@ -304,3 +303,9 @@ if (document.querySelector('#modalGallery')) {
 
     createModal(modalConsult, openModalConsultBtn, closeModalConsultBtn);
 }
+
+
+
+
+
+
