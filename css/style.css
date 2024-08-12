@@ -1939,7 +1939,7 @@ divider {
     }
 
     .header__container {
-        padding: 2rem 3.5rem;
+        padding: 2.2rem 4rem;
     }
     .hero-section__info__title {
         font-size: 3.4rem;
@@ -2021,8 +2021,8 @@ divider {
     .img-block-wrapper {
         height: 30rem;
     }
-    .hero-section__info__lede-block__item__lede {
-        font-size: 1.8rem;
+    .infrastructure__list__item {
+        grid-row: auto !important;
     }
 }
 
@@ -2089,7 +2089,7 @@ divider {
 
     .infrastructure__list {
         grid-template-columns: 1fr !important;
-        grid-template-rows: auto !important;
+        grid-template-rows: 1fr 1fr !important;
     }
 
     .infrastructure__list__item:nth-child(3) {
@@ -2162,9 +2162,7 @@ divider {
         height: 28rem;
     }
 
-    .header__container {
-        padding: 3.4rem 3rem;
-    }
+    
     .building-developer__img-wrapper {
         width: 100%;
     }
@@ -2251,9 +2249,6 @@ divider {
         height: 32rem;
     }
 
-    .hero-section__info__lede-block__item__lede {
-        font-size: 1.8rem;
-    }
     .logo-title {
         font-size: 1.2rem;
     }
