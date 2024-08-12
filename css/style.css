@@ -1937,6 +1937,93 @@ divider {
         height: auto;
         object-fit: contain;
     }
+
+    .header__container {
+        padding: 2rem 3.5rem;
+    }
+    .hero-section__info__title {
+        font-size: 3.4rem;
+    }
+    .hero-section__info__lede {
+        font-size: 1.6rem;
+    }
+    .section-lede {
+        font-size: 1.6rem !important;
+    }
+    h2 {
+        font-size: 2.4rem !important;
+    }
+
+    a, button {
+        font-size: 1.6rem !important;
+    }
+    .tabs__btns-list__item__btn {
+        font-size: 1.4rem !important;
+    }
+    .tabs__btns-list {
+        gap: .5rem;
+    }
+    .slide__content__title {
+        font-size: 2rem;
+    }
+    .slide__content__text {
+        font-size: 1.4rem;
+    }
+    .slide__header__person__info__name {
+        font-size: 1.8rem;
+    }
+    .slide__header {
+        padding: 1.6rem 2rem;
+    }
+    .slide__content {
+        padding: 2rem;
+    }
+    .plans__list__item__content__info__title {
+        font-size: 2rem;
+    }
+    .presentetion__info__img {
+        width: 50%;
+    }
+    .projects-nearby__list__item__title {
+        font-size: 1.8rem;
+    }
+    .building-process__ui-block__start-end__item__text {
+        font-size: 1.8rem;
+    }
+    .building-process__list__item__content__title {
+        font-size: 1.8rem;
+    }
+    .building-process__list__item__content__lede {
+        font-size: 1.6rem;
+    }
+    .building-process__list__item__content__date {
+        font-size: 1.8rem;
+    }
+    .apartment-selection__form-block__header__title {
+        font-size: 2rem;
+    }
+    .range__title {
+        font-size: 1.6rem !important;
+    }
+    .range-min-max__min, .range-min-max__max {
+        font-size: 1.6rem !important;
+    }
+    .range-output {
+        font-size: 1.4rem;
+    }
+    .calculator-cart__display__output__item span {
+        font-size: 1.8rem !important;
+    }
+    .calculator-cart {
+        padding: 1rem !important;
+        border-radius: 2rem !important;
+    }
+    .img-block-wrapper {
+        height: 30rem;
+    }
+    .hero-section__info__lede-block__item__lede {
+        font-size: 1.8rem;
+    }
 }
 
 @media screen and (max-width: 682px) {
@@ -2168,6 +2255,6 @@ divider {
         font-size: 1.8rem;
     }
     .logo-title {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 }
