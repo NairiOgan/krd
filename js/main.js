@@ -171,7 +171,7 @@ const banksSlider = new Swiper('.banks-slider', {
     spaceBetween: 30,
 
     // Скорость переключения слайдов
-    speed: 12000,
+    speed: 10000,
 
     autoplay: {
         delay: 0,
