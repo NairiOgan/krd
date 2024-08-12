@@ -664,15 +664,15 @@ divider {
 
 .about-pagination .swiper-pagination-bullet {
     display: flex;
-    width: 4.5rem;
-    height: 4.5rem;
-    border-radius: 4.5rem;
+    width: 4.2rem;
+    height: 4.2rem;
+    border-radius: 4.2rem;
     background: transparent;
     border: 3px solid var(--primary);
     justify-content: center;
     align-items: center;
     color: var(--primary);
-    font-size: 2.3rem;
+    font-size: 2rem;
     font-weight: 700;
     margin: 0 !important;
     opacity: 1 !important;
@@ -822,7 +822,7 @@ divider {
 
 .plans__list__item__image-wrapper {
     width: 17.1rem;
-    height: 25rem;
+    height: 18rem;
     order: -1;
 }
 .plans__list__item__image-wrapper__img {
@@ -1015,7 +1015,7 @@ divider {
     justify-content: flex-start;
     align-items: center;
     gap: var(--space-xs);
-    padding: 2rem 2rem 3rem 2rem;
+    padding: 1.2rem 1.2rem 2rem 1.2rem;
     background: var(--secondary);
     border: 1px solid var(--tertiary);
     border-radius: var(--radius-l);
@@ -1847,7 +1847,7 @@ divider {
     .gallery__list__item {
         grid-column: auto !important;
         grid-row: auto !important;
-        height: 30rem;
+        height: 22rem;
     }
 
     .img-block-wrapper {
@@ -1922,6 +1922,7 @@ divider {
 
     .calculator-cart {
         grid-template-columns: 1fr;
+        gap: var(--space-xs);
     }
 
     .calculator-cart__display {
@@ -1955,7 +1956,7 @@ divider {
     }
 
     .header__container {
-        padding: 2.2rem 4rem;
+        padding: 2.6rem 4rem;
     }
     .hero-section__info__title {
         font-size: 3.4rem;
@@ -1998,7 +1999,7 @@ divider {
         font-size: 2rem;
     }
     .presentetion__info__img {
-        width: 50%;
+        width: 70%;
     }
     .projects-nearby__list__item__title {
         font-size: 1.8rem;
@@ -2079,7 +2080,8 @@ divider {
     }
     .catalog-img._mobile {
         display: block;
-        width: 100%;
+        width: 80%;
+        margin: 0 auto;
         height: auto;
         object-fit: contain;
     }
@@ -2105,7 +2107,7 @@ divider {
 
     .infrastructure__list {
         grid-template-columns: 1fr !important;
-        grid-template-rows: 1fr 1fr !important;
+        grid-template-rows: 1fr 200px !important;
     }
 
     .infrastructure__list__item:nth-child(3) {
@@ -2169,13 +2171,13 @@ divider {
         grid-template-columns: 1fr;
     }
     .presentetion__info__img {
-        max-width: 100%;
+        max-width: 80%;
         width: 100%;
     }
 
     .projects-nearby__list__item__img,
     .building-process__list__item__img-wrapper {
-        height: 28rem;
+        height: 24rem;
     }
 
     
