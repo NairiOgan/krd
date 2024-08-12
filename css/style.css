@@ -155,6 +155,7 @@ body {
     margin: 0 auto;
     width: 100%;
     text-wrap: pretty;
+    zoom: 1;
 }
 
 h1,
