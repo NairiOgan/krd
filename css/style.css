@@ -597,10 +597,24 @@ divider {
 
 .tab-content {
     display: none !important;
+    overflow: hidden;
+    visibility: hidden;
+    opacity: 0;
     transition: var(--transition-base);
+}
+
+.tab-content .infrastructure__list {
+    display: none !important;
 }
 .tab-content.active {
     display: grid !important;
+    overflow: visible;
+    visibility: visible;
+    opacity: 1;
+}
+
+.tab-content.active .infrastructure__list {
+    display: grid;
 }
 
 /* about */
@@ -823,12 +837,14 @@ divider {
 }
 
 .infrastructure__list {
-    display: grid;
+    display: none;
     grid-template-columns: var(--grid-4);
     align-items: start;
     justify-content: start;
     gap: var(--grid-gap);
 }
+
+
 
 .infrastructure__list__item--slide {
     border: 3px solid var(--tertiary);
@@ -1088,7 +1104,7 @@ divider {
 }
 
 .building-process__list {
-    display: grid;
+    /* display: grid; */
     grid-template-columns: var(--grid-3);
     align-items: start;
     gap: var(--grid-gap);
